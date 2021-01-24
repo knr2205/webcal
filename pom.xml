@@ -27,23 +27,5 @@
         <url>http://52.204.135.48:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
-<settings>
-    <pluginGroups>
-        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
-    </pluginGroups>
-    <profiles>
-        <profile>
-            <id>sonar</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url>
-                  http://75.101.174.88:9000
-                </sonar.host.url>
-            </properties>
-        </profile>
-     </profiles>
-</settings>
+
 </project>
